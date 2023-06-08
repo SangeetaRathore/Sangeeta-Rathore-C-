@@ -1,26 +1,37 @@
 // PRINT HELLO WORLD
-/*#include <iostream>
+
+#include <iostream>
 using namespace std;
 int main() {
   cout << "Hello"<<endl<<"World!";
-}*/
+}
+
+
 
 // PRINT HELLO WORLD
-/*#include <iostream>
+
+#include <iostream>
 using namespace std;
 int main() {
   cout << "Hello"<<"World!";
-}*/
+}
+
+
+
 
 // PRINT PHYSICS WALLAH
-/*#include <iostream>
+
+#include <iostream>
 using namespace std;
 int main() {
   printf("Physics\nWallah");
-}*/
+}
+
+
 
 // SUM  OF THE NUMBER GIVEN  BY USER
-/*#include <iostream>
+
+#include <iostream>
 using namespace std;
 int main() {
   int n1, n2, sum;
@@ -31,10 +42,14 @@ int main() {
   sum = n1 + n2;
   cout << sum << endl;
   return 0;
-}*/
+}
+
+
+
 
 // Take 2 integer values in two variables x and y and print their product.
-/*#include <iostream>
+
+#include <iostream>
 using namespace std;
 int main() {
   int X, Y, Pr;
@@ -45,25 +60,34 @@ int main() {
   Pr = X * Y;
   cout << Pr << endl;
   return 0;
-}*/
+}
+
+
+
 
 // TAKE A LENGTH AND BREADTH OF A RECTANGLE AND FIND AREA.
-/*#include <iostream>
+
+#include <iostream>
 using namespace std;
 int main()
 {
   int length, breadth, area;
   cout<<"Length=";
   cin>>length;
-  cout<<"Breadth=";Take 2 integer
+  cout<<"Breadth=";
   cin>>breadth;
   area=length*breadth;
   cout<<"Area="<<area;
   return 0;
-}*/
+}
+
+
+
+
 
 // CALCULATE THE CUBE OF A NUMBER
-/*#include <iostream>
+
+#include <iostream>
 using namespace std;
 int main() {
   int a, cube;
@@ -71,25 +95,33 @@ int main() {
   cin >> a;
   cube = a * a * a;
   cout << "Cube = " << cube;
-  return 0;Take 2 integer
-}*/
+  return 0;
+}
+
+
+
+
 
 // FIND THE SIZE OF DATA
-// #include <iostream>
-// using namespace std;
-// int main() {
-//   cout << "Size of basic data type in bytes\n";
-//   cout << "The size of int data type = " << sizeof(int) << " bytes \n";
-//   cout << "The size of char data type = " << sizeof(char) << " bytes \n";
-//   cout << "The size of bool data type = " << sizeof(bool) << " bytes \n";
-//   cout << "The size of wchar_t data type = " << sizeof(wchar_t) << " bytes
-//   \n"; cout << "The size of float data type = " << sizeof(float) << " bytes
-//   \n"; cout << "The size of double data type = " << sizeof(double) << " bytes
-//   \n"; return 0;
-// }
+
+#include <iostream>
+using namespace std;
+int main() {
+  cout << "Size of basic data type in bytes\n";
+  cout << "The size of int data type = " << sizeof(int) << " bytes \n";
+  cout << "The size of char data type = " << sizeof(char) << " bytes \n";
+  cout << "The size of bool data type = " << sizeof(bool) << " bytes \n";
+  cout << "The size of wchar_t data type = " << sizeof(wchar_t) << " bytes \n";
+  cout << "The size of float data type = " << sizeof(float) << " bytes \n"; 
+  cout << "The size of double data type = " << sizeof(double) << " bytes \n";
+   return 0;
+}
+
+
 
 // SWIFE THE TWO NUMBER BY THIRD NUMBER
-/*#include <iostream>
+
+#include <iostream>
 using namespace std;
 int main() {
   int n1, n2, n3;
@@ -103,10 +135,14 @@ int main() {
   cout << "The first number = " << n1 << "\n";
   cout << "The second number = " << n2 << "\n";
   return 0;
-}*/
+}
+
+
+
 
 // FIND THE ADD, SUB,MULTIPLY AND SUBSTRACTION OF GIVEN 2 INTEGERS
-/*#include <iostream>
+
+#include <iostream>
 using namespace std;
 int main() {
   int n1, n2, sum, div, mul, squ, cube, divi;
@@ -127,10 +163,13 @@ int main() {
   cout << "Cube = " << cube << "\n";
   cout << "Division = " << divi << "\n";
   return 0;
-}*/
+}
+
+
 
 // EXCHANGE THE VALUE OF VARIABLE
-/*#include <iostream>
+
+#include <iostream>
 using namespace std;
 int main() {
   int apple = 4;
@@ -138,20 +177,29 @@ int main() {
   apple = 10;
   cout << apple;
   return 0;
-}*/
-// {
-// int rate = 50;
-// //cout<<rate; // 50
-// rate = 60;
-// cout<<rate; // 60
-// }
+}
+
+// EXCHANGE THE VALUE OF VARIABLE
+
+#include <iostream>
+using namespace std;
+int main() {
+int rate = 50;
+rate = 60;
+cout<<rate; 
+return 0;
+}
+
+
+
 
 // USE OF << (LEFT SHIFT)
+
 #include <iostream>
 using namespace std;
 int main(void)
 {
-  int a,B ;
+  int a,B, sum;
   cout<<"enter the number = ";
   cin>>a;
   sum=a<<2;
@@ -159,7 +207,11 @@ int main(void)
 return 0;
 }
 
+
+
+
 // USE OF COMMA OPERATOR
+
 #include <iostream>
 using namespace std;
 int main(void) {
@@ -168,15 +220,18 @@ int main(void) {
   return 0;
 }
 
+
+
 // USE OF POST INCREAMENT AND PRE INCREAMENT OPERATOR
+
  #include <iostream>
  using namespace std;
  int main()
  {
    int a = 6;
-   cout << (a++) << endl ;//6
+   cout << (a++) << endl ;
    int b=86;
-   cout<<(--b)<< endl;//85
-   cout<<(++a)<< endl;//7
+   cout<<(--b)<< endl;
+   cout<<(++a)<< endl;
  return 0;
  }
