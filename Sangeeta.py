@@ -2,7 +2,7 @@
 
 c = int(input())
 b = int(input())
-if  > b:
+if > b:
   print("max =", a)
 else:
   print("max =", b)
