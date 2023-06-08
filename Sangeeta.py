@@ -1,6 +1,6 @@
 # 1. Write a python program to find maximum between two numbers.
 
-c = int(input())
+a = int(input())
 b = int(input())
 if > b:
   print("max =", a)
