@@ -99,3 +99,25 @@ int main()
 
  //**************************************************************************************************
  
+ //**************************************************************************************************
+
+ // 6.P amount of money is invested for N years at an annual rate of interest I, the money grows to an amount T, where T is given by T = P (1 + I/100)N. Construct a flowchart to show how T is determined.
+ 
+ 
+// #include<stdio.h>
+// int main()
+// {
+//     float p,n,i,t,z=1;
+//     printf("Enter =");
+//     scanf("%f", & p );
+//     printf("Enter =");
+//     scanf("%f", & n);
+//     printf("Enter =");
+//     scanf("%f", & i);
+//     t=p+i*p/100;
+//     while (z<+n)
+//         t*=t;
+//         z++;
+//     printf("Answer : %.2f \n", t);
+//     return 0;
+// }
