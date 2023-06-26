@@ -9,7 +9,8 @@ int main()
 */
 
 
-// find maximum between two numbers.
+// 1. find maximum between two numbers.
+
 /*
 #include<iostream>
 using namespace std;
@@ -31,7 +32,9 @@ int main()
 }
 */
 
-// find maximum between three numbers.
+//*********************************************************************************************
+
+// 2. find maximum between three numbers.
 /*
 #include<iostream>
 using namespace std;
@@ -63,13 +66,139 @@ int main()
 }
 */
 
-//check whether a number is negative, positive or zero.
+//*********************************************************************************************
 
+// 3. check whether a number is negative, positive or zero.
+/*
 #include<iostream>
 using namespace std;
 int main()
 {
-    
+    int a;
+    cout<<" Enter - ";
+    cin>>a;
+    if(a>0 and a<9 )
+    {
+        cout<<"positive"<<endl;
+    }
+    else if (a==0)
+    {
+        cout<<"zero"<<endl;
+    }
+    else
+    {
+        cout<<" negative"<<endl;
+    } 
     return 0;
 }
+*/
 
+
+//*********************************************************************************************
+
+// 4. check whether a number is divisible by 5 and 11 or not.
+/*
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cout<<" Enter - ";
+    cin>>a;
+    if (a%5==0 && a%11==0)
+    {
+        cout << "It is divisible"<<endl;
+    }
+    else
+    {
+        cout << "It is not divisible"<<endl;
+    }
+    return 0;
+}
+*/
+
+
+//*********************************************************************************************
+
+// 5.  to check whether a number is even or odd.
+/*
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cout<<" Enter - ";
+    cin>>a;
+    if(a%2==0)
+    {
+        cout<<"Even"<<endl;
+    }
+    else
+    {
+        cout<<"Odd"<<endl;
+    }
+    return 0;
+}
+*/
+
+
+//*********************************************************************************************
+
+//6. check whether a year is leap year or not.
+/*
+#include<iostream>
+using namespace std;
+int main()
+{
+    int y;
+    cout<<" Enter - ";
+    cin>>y;
+    if (y > 0)
+        if (y % 4 == 0 && y % 100 != 0)
+        {
+            cout<<"leaf year"<<endl;
+        }
+        else if (y % 400 == 0)
+        {
+            cout<<"leaf year"<<endl;
+        }
+        else
+        { 
+           cout<<"Not leaf year"<<endl;  
+        }
+else
+  cout<<"invalid"<<endl;
+    return 0;
+}
+*/
+
+
+//*********************************************************************************************
+
+// 7. check whether a character is an alphabet or not.
+/*
+#include<iostream>
+using namespace std;
+int main()
+{
+    char letter;
+    cout<<"Enter = ";
+    cin>>letter;
+    if (letter>='a' && letter<='z' || letter>='A' && letter<='Z' )
+    {
+        cout<<"It is an Alphabet"<<endl;
+    }
+    else{
+         cout<<"It is not Alphabet"<<endl;
+    }
+
+    return 0;
+}
+*/
+
+
+
+
+//*********************************************************************************************
+ 
+ // 8.
